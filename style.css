@@ -1,38 +1,78 @@
+*,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+}
+
 .center.title
 {
     font-size: 80px;
     font-weight: bold;
 }
-.center
-{
-    text-align: center;
+
+body {
+    background-color: rgb(155, 109, 49); /* Color outside the border */
+    margin: 0;
 }
-body{
+.object1{
     background-color: burlywood;
+    display: block;
+    width: 50%;
+    margin-top: 0px;
+    margin: auto;
+    border: 10px dotted rgba(165, 81, 42, 0.836); 
 }
 #aba
 {
-    font-size: 50px;
+    display: block;
+    background-color: rgba(165, 81, 42, 0.836);
+    margin: auto;
+    border: 3px solid
 }
-div.center
+
+#aba a
 {
-    text-align: center;
+    font-size: 35px;
 }
-.center .list
+
+.img
 {
+    display: block; 
+    margin: auto;
+    border:10px double rgba(165, 81, 42, 0.836);
+}
+.list button
+{
+    display: block;
+    border: 1px solid;
+    background-color: rgba(165, 81, 42, 0.836);
     font-size: 30px;
+}
+.list li{
+    margin: 20px;
+}
+body #font
+{
+    font-family: "Lucida Console", "Courier New", monospace;;
     text-align: center;
+    font-weight: 900;
+}
+
+.section {
+    display: block;
+    background-color: rgb(207, 147, 74) !important;
+    padding: 10px;
+    min-height: 50px; /* Ensure it has some height */
+    width: 90%;
+    margin: auto;
 }
 
 
-#box {
-    width: 300px; /* Define a width for the box */
-    margin: 0 auto; /* Center the box horizontally */
-    border: solid brown 8px; /* Move the border here for better styling */
-}
-
-#box .center {
-    text-align: center; /* Center the text inside the box */
+#t
+{
+    text-align: center;
+    font-size: 20px;
 }
 
 
